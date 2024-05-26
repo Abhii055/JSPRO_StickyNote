@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to left,black,grey)
+}
+#main{
+    min-height:100vh;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+
+#addBtn{
+    position:fixed;
+    right:10px;
+    top:10px;
+    background-color: blanchedalmond;
+    border: none;
+    outline:none;
+    padding:10px;
+    color: rgb(60, 2, 101);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px  rgb(120, 1, 124);
+    transition: background-color 0.3s ease;
+}
+#addBtn:hover{
+    background-color: rgb(244, 214, 169);
+}
+
+.note{
+    background: transparent;
+    margin:15px;
+    border-radius: 10px;
+    overflow :hidden;
+}
+.tool{
+    justify-content: right;
+    background:radial-gradient(circle at center, rgb(27, 203, 24),rgb(25, 136, 76) ,rgba(8, 144, 56, 0.918) 100%);
+    display: flex;
+    padding:5px;
+}
+.tool i{
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.tool i:hover{
+    color:rgb(42, 20, 103);
+}
+.note textarea{
+    width:300px;
+    border:none;
+    min-height:220px;
+    resize:none;
+    background:linear-gradient(240deg,rgb(6, 35, 71), rgb(28, 26, 26)) ;
+    padding:10px;
+    font-size: 20px;
+    color: aliceblue;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius:50px ;
+    transition:background 2s ease
+}
+
+.note textarea:hover{
+    background:linear-gradient(10deg,rgb(6, 35, 71), rgb(28, 26, 26)) ;
+}
