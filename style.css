@@ -11,6 +11,7 @@ body{
     padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 40px;
     justify-content: center;
     align-items: start;
 }
@@ -25,7 +26,7 @@ body{
     padding:10px;
     color: rgb(60, 2, 101);
     border-radius: 10px;
-    box-shadow: 2px 2px 10px  rgb(120, 1, 124);
+    box-shadow: 2px 2px 10px  rgb(54, 0, 56);
     transition: background-color 0.3s ease;
 }
 #addBtn:hover{
@@ -40,7 +41,7 @@ body{
 }
 .tool{
     justify-content: right;
-    background:radial-gradient(circle at center, rgb(27, 203, 24),rgb(25, 136, 76) ,rgba(8, 144, 56, 0.918) 100%);
+    background:radial-gradient(circle at center, rgb(34, 109, 33),rgb(25, 136, 76) ,rgba(8, 144, 56, 0.918) 100%);
     display: flex;
     padding:5px;
 }
@@ -68,4 +69,8 @@ body{
 
 .note textarea:hover{
     background:linear-gradient(10deg,rgb(6, 35, 71), rgb(28, 26, 26)) ;
+}
+
+.note textarea:focus{
+    outline: none;
 }
